@@ -1,10 +1,12 @@
 [
   {
-    "word": "apple",
-    "definition": "a round fruit with red, green, or yellow skin"
+    "question": "apple",
+    "answer": "a round fruit with red, green, or yellow skin",
+    "type": "english_word"
   },
   {
-    "word": "ocean",
-    "definition": "a very large area of salt water"
+    "question": "ocean",
+    "answer": "a very large area of salt water",
+    "type": "english_word"
   }
 ]
