@@ -1,12 +1,382 @@
 [
   {
-    "question": "apple",
-    "answer": "a round fruit with red, green, or yellow skin",
+    "question": "elaborate",
+    "answer": "detailed and carefully developed; also, to explain in more detail",
     "type": "english_word"
   },
   {
-    "question": "ocean",
-    "answer": "a very large area of salt water",
+    "question": "accompany",
+    "answer": "to go somewhere with someone",
+    "type": "english_word"
+  },
+  {
+    "question": "decode",
+    "answer": "to work out the meaning of something",
+    "type": "english_word"
+  },
+  {
+    "question": "steel",
+    "answer": "a strong metal made mainly from iron; also, to strengthen yourself for something difficult",
+    "type": "english_word"
+  },
+  {
+    "question": "inquisitive",
+    "answer": "curious and eager to find out things",
+    "type": "english_word"
+  },
+  {
+    "question": "commute",
+    "answer": "to travel regularly between home and work or school",
+    "type": "english_word"
+  },
+  {
+    "question": "stability",
+    "answer": "the state of being stable, steady, or unlikely to change suddenly",
+    "type": "english_word"
+  },
+  {
+    "question": "suntanned",
+    "answer": "having brown skin caused by exposure to the sun",
+    "type": "english_word"
+  },
+  {
+    "question": "biography",
+    "answer": "the story of a person's life written by someone else",
+    "type": "english_word"
+  },
+  {
+    "question": "autobiography",
+    "answer": "the story of a person's life written by that person",
+    "type": "english_word"
+  },
+  {
+    "question": "clarity",
+    "answer": "the quality of being clear and easy to understand",
+    "type": "english_word"
+  },
+  {
+    "question": "ever close",
+    "answer": "increasingly close over time",
+    "type": "english_word"
+  },
+  {
+    "question": "streak",
+    "answer": "a long thin line or mark",
+    "type": "english_word"
+  },
+  {
+    "question": "stethoscope",
+    "answer": "a medical instrument used to listen to someone's heartbeat or breathing",
+    "type": "english_word"
+  },
+  {
+    "question": "stretcher",
+    "answer": "a frame or bed used to carry someone who is injured or ill",
+    "type": "english_word"
+  },
+  {
+    "question": "avid",
+    "answer": "very eager or enthusiastic",
+    "type": "english_word"
+  },
+  {
+    "question": "controversy",
+    "answer": "a public argument or disagreement about something",
+    "type": "english_word"
+  },
+  {
+    "question": "forgery",
+    "answer": "the act of copying or making something fake in order to deceive people",
+    "type": "english_word"
+  },
+  {
+    "question": "forum",
+    "answer": "a place or meeting for public discussion",
+    "type": "english_word"
+  },
+  {
+    "question": "galleon",
+    "answer": "a large sailing ship used especially by spain from the 16th to the 18th centuries",
+    "type": "english_word"
+  },
+  {
+    "question": "geranium",
+    "answer": "a garden plant with red, pink, white, or purple flowers",
+    "type": "english_word"
+  },
+  {
+    "question": "geriatric",
+    "answer": "relating to the health and care of old people",
+    "type": "english_word"
+  },
+  {
+    "question": "gig",
+    "answer": "a live performance by a musician or band",
+    "type": "english_word"
+  },
+  {
+    "question": "gong",
+    "answer": "a large metal disc that makes a deep sound when struck",
+    "type": "english_word"
+  },
+  {
+    "question": "gymkhana",
+    "answer": "a competition involving riding, driving, or other skill-based events",
+    "type": "english_word"
+  },
+  {
+    "question": "hellish",
+    "answer": "extremely unpleasant or difficult",
+    "type": "english_word"
+  },
+  {
+    "question": "veil",
+    "answer": "something that covers, hides, or partly conceals",
+    "type": "english_word"
+  },
+  {
+    "question": "euphemism",
+    "answer": "a mild or indirect word used instead of one that may sound harsh or unpleasant",
+    "type": "english_word"
+  },
+  {
+    "question": "pun",
+    "answer": "a joke that uses words with different meanings or words that sound alike",
+    "type": "english_word"
+  },
+  {
+    "question": "revenue",
+    "answer": "income produced by a business, organization, or government",
+    "type": "english_word"
+  },
+  {
+    "question": "accommodate",
+    "answer": "to provide space or a place to stay for someone",
+    "type": "english_word"
+  },
+  {
+    "question": "buoy",
+    "answer": "a floating object anchored in water to mark a place or warn boats",
+    "type": "english_word"
+  },
+  {
+    "question": "ennui",
+    "answer": "a feeling of boredom and dissatisfaction",
+    "type": "english_word"
+  },
+  {
+    "question": "precipitation",
+    "answer": "water that falls from the sky as rain, snow, sleet, or hail",
+    "type": "english_word"
+  },
+  {
+    "question": "kaleidoscope",
+    "answer": "a tube with mirrors that shows changing symmetrical patterns when rotated",
+    "type": "english_word"
+  },
+  {
+    "question": "equivocate",
+    "answer": "to speak in an unclear or deliberately misleading way",
+    "type": "english_word"
+  },
+  {
+    "question": "fatuous",
+    "answer": "silly and pointless, especially in a smug way",
+    "type": "english_word"
+  },
+  {
+    "question": "gaffe",
+    "answer": "a socially awkward remark or mistake",
+    "type": "english_word"
+  },
+  {
+    "question": "garrulous",
+    "answer": "talking too much, especially about unimportant things",
+    "type": "english_word"
+  },
+  {
+    "question": "devoid",
+    "answer": "completely lacking something",
+    "type": "english_word"
+  },
+  {
+    "question": "hospitable",
+    "answer": "welcoming and friendly to guests or strangers",
+    "type": "english_word"
+  },
+  {
+    "question": "prescribe",
+    "answer": "to advise or authorize the use of a medicine or treatment",
+    "type": "english_word"
+  },
+  {
+    "question": "regimen",
+    "answer": "a planned course of diet, exercise, or medical treatment",
+    "type": "english_word"
+  },
+  {
+    "question": "regime",
+    "answer": "a system or method of government, management, or rule",
+    "type": "english_word"
+  },
+  {
+    "question": "regiment",
+    "answer": "a military unit made up of several companies or battalions",
+    "type": "english_word"
+  },
+  {
+    "question": "battalions",
+    "answer": "large military units, each usually made up of several companies",
+    "type": "english_word"
+  },
+  {
+    "question": "contrast",
+    "answer": "to compare two things in order to show their differences",
+    "type": "english_word"
+  },
+  {
+    "question": "lenient",
+    "answer": "more gentle or less strict than expected, especially in punishment",
+    "type": "english_word"
+  },
+  {
+    "question": "briskly",
+    "answer": "quickly and energetically",
+    "type": "english_word"
+  },
+  {
+    "question": "concurrent",
+    "answer": "existing, happening, or done at the same time",
+    "type": "english_word"
+  },
+  {
+    "question": "hunk",
+    "answer": "a large thick piece of something; informally, an attractive and well-built man",
+    "type": "english_word"
+  },
+  {
+    "question": "enquired",
+    "answer": "asked for information; the past tense of enquire",
+    "type": "english_word"
+  },
+  {
+    "question": "observatory",
+    "answer": "a place with special equipment for observing stars, planets, or other natural events",
+    "type": "english_word"
+  },
+  {
+    "question": "throughout",
+    "answer": "in every part of something; during the whole time",
+    "type": "english_word"
+  },
+  {
+    "question": "remarkably",
+    "answer": "in a way that is unusual, surprising, or worthy of attention",
+    "type": "english_word"
+  },
+  {
+    "question": "curator",
+    "answer": "a person who manages a museum, art gallery, or collection",
+    "type": "english_word"
+  },
+  {
+    "question": "archivist",
+    "answer": "a person who collects, organizes, and preserves valuable records or documents",
+    "type": "english_word"
+  },
+  {
+    "question": "despite",
+    "answer": "without being affected by something; even though",
+    "type": "english_word"
+  },
+  {
+    "question": "rowdy",
+    "answer": "noisy, rough, and disorderly",
+    "type": "english_word"
+  },
+  {
+    "question": "presence",
+    "answer": "the state of being present in a place; also, a person's impressive manner",
+    "type": "english_word"
+  },
+  {
+    "question": "treat",
+    "answer": "something special that gives pleasure, especially a nice food or experience; also, to behave toward someone in a particular way",
+    "type": "english_word"
+  },
+  {
+    "question": "nevertheless",
+    "answer": "despite that; however; but still",
+    "type": "english_word"
+  },
+  {
+    "question": "consequently",
+    "answer": "as a result",
+    "type": "english_word"
+  },
+  {
+    "question": "ratite",
+    "answer": "a large flightless bird such as an emu, ostrich, or kiwi",
+    "type": "english_word"
+  },
+  {
+    "question": "manure",
+    "answer": "animal waste used to fertilize soil",
+    "type": "english_word"
+  },
+  {
+    "question": "excrement",
+    "answer": "waste matter discharged from the body, especially feces",
+    "type": "english_word"
+  },
+  {
+    "question": "bowel movement",
+    "answer": "the act of passing feces; stool or poop",
+    "type": "english_word"
+  },
+  {
+    "question": "dung",
+    "answer": "solid waste from animals, often used as manure",
+    "type": "english_word"
+  },
+  {
+    "question": "criticise",
+    "answer": "to express disapproval of someone or something by pointing out faults",
+    "type": "english_word"
+  },
+  {
+    "question": "convention",
+    "answer": "a usual way of doing something; also, a formal agreement between countries",
+    "type": "english_word"
+  },
+  {
+    "question": "exposition",
+    "answer": "the part of a story that gives important background information",
+    "type": "english_word"
+  },
+  {
+    "question": "insertion",
+    "answer": "the act of putting something into something else",
+    "type": "english_word"
+  },
+  {
+    "question": "ivory",
+    "answer": "a hard creamy-white material from the tusks or teeth of animals such as elephants",
+    "type": "english_word"
+  },
+  {
+    "question": "poaching",
+    "answer": "illegal hunting, catching, or killing of wild animals, or illegal harvesting of protected plants",
+    "type": "english_word"
+  },
+  {
+    "question": "machetes",
+    "answer": "large heavy knives with broad blades",
+    "type": "english_word"
+  },
+  {
+    "question": "trafficking",
+    "answer": "the illegal trade or dealing in something",
     "type": "english_word"
   }
 ]
