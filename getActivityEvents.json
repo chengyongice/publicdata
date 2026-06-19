@@ -1,0 +1,286 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : null,
+    "version" : "1.0.0",
+    "title" : null,
+    "termsOfService" : null,
+    "contact" : null,
+    "license" : null
+  },
+  "host" : "api.powerbi.com",
+  "basePath" : "/v1.0/myorg",
+  "schemes" : [ "https" ],
+  "paths" : {
+    "/admin/activityevents" : {
+      "get" : {
+        "tags" : [ "getActivityEvents" ],
+        "summary" : null,
+        "description" : null,
+        "operationId" : "getActivityEvents",
+        "produces" : [ "application/json" ],
+        "consumes" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "startDateTime",
+          "in" : "query",
+          "description" : null,
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "endDateTime",
+          "in" : "query",
+          "description" : null,
+          "required" : false,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "$ref" : "#/definitions/getActivityEvents"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "getActivityEvents##activityEventEntities##DataflowAccessTokenRequestParameters" : {
+      "properties" : {
+        "tokenLifetimeInMinutes" : {
+          "type" : "number",
+          "format" : "int32"
+        },
+        "permissions" : {
+          "type" : "number",
+          "format" : "int32"
+        },
+        "entityName" : {
+          "type" : "string"
+        },
+        "partitionUri" : {
+          "type" : "string"
+        }
+      }
+    },
+    "getActivityEvents##activityEventEntities##DatasourceInformations" : {
+      "properties" : {
+        "DatasourceObjectId" : {
+          "type" : "string"
+        },
+        "GatewayObjectId" : {
+          "type" : "string"
+        },
+        "DatasourceReference" : {
+          "type" : "string"
+        },
+        "CredentialType" : {
+          "type" : "string"
+        },
+        "SingleSignOnType" : {
+          "type" : "string"
+        }
+      }
+    },
+    "getActivityEvents##activityEventEntities" : {
+      "properties" : {
+        "Id" : {
+          "type" : "string"
+        },
+        "RecordType" : {
+          "type" : "number"
+        },
+        "CreationTime" : {
+          "type" : "string"
+        },
+        "Operation" : {
+          "type" : "string"
+        },
+        "OrganizationId" : {
+          "type" : "string"
+        },
+        "UserType" : {
+          "type" : "number"
+        },
+        "UserKey" : {
+          "type" : "string"
+        },
+        "Workload" : {
+          "type" : "string"
+        },
+        "UserId" : {
+          "type" : "string"
+        },
+        "ClientIP" : {
+          "type" : "string"
+        },
+        "Activity" : {
+          "type" : "string"
+        },
+        "ItemName" : {
+          "type" : "string"
+        },
+        "WorkSpaceName" : {
+          "type" : "string"
+        },
+        "CapacityId" : {
+          "type" : "string"
+        },
+        "CapacityName" : {
+          "type" : "string"
+        },
+        "WorkspaceId" : {
+          "type" : "string"
+        },
+        "ObjectId" : {
+          "type" : "string"
+        },
+        "DataflowId" : {
+          "type" : "string"
+        },
+        "DataflowName" : {
+          "type" : "string"
+        },
+        "IsSuccess" : {
+          "type" : "boolean"
+        },
+        "DataflowRefreshScheduleType" : {
+          "type" : "string"
+        },
+        "DataflowType" : {
+          "type" : "string"
+        },
+        "RequestId" : {
+          "type" : "string"
+        },
+        "ActivityId" : {
+          "type" : "string"
+        },
+        "RefreshEnforcementPolicy" : {
+          "type" : "number"
+        },
+        "BillingType" : {
+          "type" : "number"
+        },
+        "UserAgent" : {
+          "type" : "string"
+        },
+        "DataflowAccessTokenRequestParameters" : {
+          "$ref" : "#/definitions/getActivityEvents##activityEventEntities##DataflowAccessTokenRequestParameters"
+        },
+        "ResultStatus" : {
+          "type" : "string"
+        },
+        "ObjectType" : {
+          "type" : "string"
+        },
+        "ObjectDisplayName" : {
+          "type" : "string"
+        },
+        "Experience" : {
+          "type" : "string"
+        },
+        "DatasetName" : {
+          "type" : "string"
+        },
+        "DatasetId" : {
+          "type" : "string"
+        },
+        "DataConnectivityMode" : {
+          "type" : "string"
+        },
+        "ArtifactId" : {
+          "type" : "string"
+        },
+        "ArtifactName" : {
+          "type" : "string"
+        },
+        "RefreshType" : {
+          "type" : "string"
+        },
+        "LastRefreshTime" : {
+          "type" : "string"
+        },
+        "ArtifactKind" : {
+          "type" : "string"
+        },
+        "ItemId" : {
+          "type" : "string"
+        },
+        "DatasourceInformations" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/getActivityEvents##activityEventEntities##DatasourceInformations"
+          }
+        },
+        "SubfolderId" : {
+          "type" : "number"
+        },
+        "SubfolderObjectId" : {
+          "type" : "string"
+        },
+        "SubfolderName" : {
+          "type" : "string"
+        },
+        "ReportName" : {
+          "type" : "string"
+        },
+        "AppName" : {
+          "type" : "string"
+        },
+        "ReportId" : {
+          "type" : "string"
+        },
+        "ReportType" : {
+          "type" : "string"
+        },
+        "AppReportId" : {
+          "type" : "string"
+        },
+        "DistributionMethod" : {
+          "type" : "string"
+        },
+        "ConsumptionMethod" : {
+          "type" : "string"
+        },
+        "AppId" : {
+          "type" : "string"
+        },
+        "CustomVisualAccessTokenResourceId" : {
+          "type" : "string"
+        },
+        "CustomVisualAccessTokenSiteUri" : {
+          "type" : "string"
+        },
+        "ModelsSnapshots" : {
+          "type" : "string"
+        },
+        "GatewayId" : {
+          "type" : "string"
+        },
+        "DatasourceId" : {
+          "type" : "string"
+        }
+      }
+    },
+    "getActivityEvents" : {
+      "properties" : {
+        "activityEventEntities" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/getActivityEvents##activityEventEntities"
+          }
+        },
+        "continuationUri" : {
+          "type" : "string"
+        },
+        "continuationToken" : {
+          "type" : "string"
+        },
+        "lastResultSet" : {
+          "type" : "boolean"
+        }
+      }
+    }
+  }
+}
